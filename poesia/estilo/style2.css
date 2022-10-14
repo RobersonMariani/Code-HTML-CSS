@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/**********************Importação das Fontes************************/
+@font-face {
+    font-family: 'passion';
+    src: url('../fontes/PassionOne-Bold.ttf');
+}
+@font-face {
+    font-family: 'sriracha';
+    src: url('../fontes/Sriracha-Regular.ttf');
+}
+
+:root{
+    --fontepadrao: Verdana, Geneva, Tahoma, sans-serif;
+    --fontetitulo: 'passion';
+    --fontetexto: 'sriracha';
+}
+
+/**************Configuração universal************/
+*{
+    margin: 0px;
+    padding: 0px;     
+}
+
+/*********Configuração principal e corpo***********/
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fontepadrao);
+}
+
+/*********Configuração do cabeçelho***********/
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fontetitulo);
+    font-size: 10vw;
+}
+header > p{
+    padding-bottom: 50px;    
+    font-family: var(--fontepadrao);
+}
+
+/*********Configuração dos links**********/
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/*********Configuração das sessões***********/
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fontetexto);
+    font-size: 3.5vw;    
+}
+section > p{
+    padding-bottom: 2em;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.363);
+    background-size: cover;
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.295);    
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+section#img01{
+    background: black url('../imagens/joaninha.jpg') right center fixed;    
+}
+section#img02{
+    background: black url('../imagens/biblia.jpg') right center fixed;    
+}
+
+/***********Configuração do rodapé************/
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font: var(--fontepadrao);
+}

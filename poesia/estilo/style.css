@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'passion';
+    src: url('../fontes/PassionOne-Bold.ttf');
+}
+@font-face {
+    font-family: 'sriracha';
+    src: url('../fontes/Sriracha-Regular.ttf');
+}
+*{
+    margin: 0px;
+    max-width: 1400px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    
+}
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header h1{
+    font-family: 'passion';
+    font-size: 136px;
+    margin: 0px;
+    margin-top: 20px;
+}
+header p{
+    margin: 0px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+
+}
+main{
+    font-family: 'sriracha';
+    
+}
+main p{
+    font-size: 47px;
+    max-width: 600px;
+    margin: 70px;
+}
+#p1{
+    
+    width: 600px;
+    color: black;
+    padding: 0px;
+    text-align: left;
+    margin: 50px; 
+}
+#p2{
+    background: black;
+    width: 600px;
+    color: white;
+    padding: 0px;
+    text-align: left;
+    margin: 50px; 
+      
+    position: absolute;   
+    top: 30px;   
+}
+#p3{
+    
+    width: 600px;
+    color: black;
+    padding: 0px;
+    text-align: left;
+    margin: 30px; 
+}
+#p4{
+    background: rgba(0, 0, 0, 0.493);
+    width: 600px;
+    color: white;
+    padding: 0px;
+    text-align: left;     
+    margin: 50px;       
+    position: absolute;   
+    top: 30px;   
+}
+#p5{
+    
+    width: 600px;
+    color: black;
+    padding: 0px;
+    text-align: left;
+    margin: 50px; 
+}
+#dois{
+    background-image: url('../imagens/joaninha.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 720px;
+    position: relative;
+    box-shadow: inset 5px 5px 5px 5px rgba(0, 0, 0, 0.226);
+}
+#quatro{
+    background-image: url('../imagens/biblia.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 720px;
+    position: relative;;
+}
+footer{
+    font-size: 16px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 35px;
+    padding-top: 17px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+
+}
