@@ -9,7 +9,7 @@
 html, body{
     height: 100vh;
     width: 100vw;
-    background-color: black;
+    background-color: white;
 }
 
 body{
@@ -35,9 +35,9 @@ section#telefone{
 
 iframe#tela{
     position: relative;
-    top: 80px;
+    top: 79px;
     left: 21px;
-    width: 270px;
+    width: 269px;
     height: 475px;
     border-radius: 5px;
 }
