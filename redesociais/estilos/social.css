@@ -13,8 +13,8 @@
 }
 
 img{
-    width: 100vh;
-    margin: 0px;
+    width: 60vh;         
+    
 }
 a{
     display: block;
@@ -24,7 +24,7 @@ a{
     font-weight: bolder;
     text-decoration: none;
     color: white;
-    margin: 0px;
+    
 }
 a:hover{
     background-color: red;
