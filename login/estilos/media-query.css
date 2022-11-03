@@ -20,24 +20,55 @@
         
     }
 
+    form > input[type=submit]{
+        margin-top: 150px;
+    }
+
+    div#log.campo{
+        margin-top: 80px;
+    }
+    div.campo > input{       
+        transform: translateY(-12px);      
+    }
+
 }
 
 @media screen and (min-width: 992px) {
    
     body{
-        background: radial-gradient(#C86D3B 45%,#014286,#0073BB);
+        background: radial-gradient(#C86D3B 45%,#014286,#0073BB);        
     }
 
     section#login{
         width: 950px;
     }
     section#login > div#imagem{
-        float: left;
-        width: 50%;
-        height: 100%;
-    }
-    section#login > div#formulario{
         float: right;
         width: 50%;
+        height: 100%;     
+        background: radial-gradient();
+    }
+    section#login > div#formulario{
+        float: left;
+        width: 50%;
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
+    div#formulario > p{
+        font-size: 1.2em;
+    }
+
+    form > input[type=submit]{
+        margin-top: 100px;
+    }
+
+    div#log.campo{
+        margin-top: 80px;
+    }
+    div.campo > input{       
+        transform: translateY(-12px);      
     }
 }
