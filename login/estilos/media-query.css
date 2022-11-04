@@ -8,6 +8,7 @@
 
     section#login{
         width: 80vw;
+        height:  350px;
     }
     section#login > div#imagem{
         float: left;
@@ -21,11 +22,11 @@
     }
 
     form > input[type=submit]{
-        margin-top: 150px;
+        margin-top: 50px;
     }
 
     div#log.campo{
-        margin-top: 80px;
+        margin-top: 30px;
     }
     div.campo > input{       
         transform: translateY(-12px);      
@@ -41,6 +42,7 @@
 
     section#login{
         width: 950px;
+        height: 360px;
     }
     section#login > div#imagem{
         float: right;
@@ -58,15 +60,15 @@
     }
 
     div#formulario > p{
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     form > input[type=submit]{
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
     div#log.campo{
-        margin-top: 80px;
+        margin-top: 30px;
     }
     div.campo > input{       
         transform: translateY(-12px);      
