@@ -74,3 +74,45 @@
         transform: translateY(-12px);      
     }
 }
+
+@media screen and (orientation: landscape) and (max-width: 700px) {
+    body, html{        
+       height: 500px;
+    }
+
+    section#login > div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+        margin: 0px;
+        padding: 0%;
+                      
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 50%;
+        height: 100%;   
+        font: 0.5em;  
+        margin: 0px;  
+        
+              
+        
+    }
+    section#login{
+        width: 400px;
+        height: 300px;  
+        padding: 0px;     
+        margin: 0px;        
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    form > input[type=submit]{
+        margin-top: 0px;
+        padding: 5px;
+    }
+
+    div#log.campo{
+        margin-top: 0px;
+        
+    }
+}
