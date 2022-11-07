@@ -11,9 +11,9 @@
     padding: 0px;
 }
 
-body{
-    width: 98vw;
-    height: 100vh;
+body, html{
+    width: 100vw;
+    height: 100vh; 
 }
 
 header{
@@ -35,17 +35,26 @@ h2{
     margin: 5px;
 }
 
-main > section{
-    width: 800px;
+main{
     display: block;
-    margin:auto;
+}
+
+main > section{   
+    width: 60vw;    
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px; 
+    
 }
 
 main > section > p{
-    margin: 5px;
+    margin-top: 20px;
     padding: 10px;    
     text-indent: 30px;
     text-align: justify;    
     font-size: 1.2em;
-    line-height: 1.6em;
+    line-height: 1.6em;    
+    
 }

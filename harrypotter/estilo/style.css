@@ -11,45 +11,108 @@
     padding: 0px;
 }
 
-body{
-    width: 98vw;
-    height: 100vh;
+body, html{
+    width:100vw;    
 }
 
-header{
-    margin-left: 20px;
+header{    
+    background: linear-gradient(130deg,#7c551be5,#810b02d5,#a86602e5,#c78902e3,#444444);
+    padding: 10px;
+    height: 240px;
 }
 
-header > nav > ul {
-    display: inline-block;
+nav > ul > li{
+    display: inline-block;    
+}
+ li > a{
+    width: 100px;        
+    display: block;        
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px white;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 900;
+    font-family: 'harryp';    
+    color: black;
+    text-align: center;  
+    box-shadow: 1px 1px 3px black;
+}
+ul{    
+    list-style-type: none;
 }
 
 h1{
     font-family: 'Harryp';
     font-size: 6em;
     text-align: center;
-    padding: 10px;
-    margin: 5px;
+    padding: 5px;
+    margin: 5px;      
+    color: black;
+    text-shadow: 2px 2px 1px white;    
 }
 h2{
     font-family: 'Harryp';
     font-size: 3em;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
+    color: black;
+    text-shadow: 2px 2px 1px white;
+
+   /*  background: linear-gradient(45deg,white,gray,black);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+body{
+    background: url('../imagens/1201594.jpg') center center no-repeat;
+    background-color: rgba(0, 0, 0, 0.521);
+    background-blend-mode: overlay;
+    background-size:cover;
+    
 }
 
 main > article{
-    width: 800px;
+    width: 60vw;
     display: block;
     margin: auto;
+    margin-bottom: 20px;            
+    margin-top: 20px;    
+    text-shadow: 1px 1px 2px black;    
+    background-color: rgb(145, 97, 66);    
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(129, 69, 0, 0.719);
+    
 }
 
 main > article > p{
+    
     margin: 5px;
-    padding: 10px;    
+    padding: 10px;
+    color: #ffffff;    
     text-indent: 30px;
-    text-align: justify;    
+    text-align: justify; 
+    font-weight: 700;   
     font-size: 1.2em;
     line-height: 1.6em;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);    
+   
+}
+
+footer{
+    background: linear-gradient(130deg,#7c551be5,#810b02d5,#a86602e5,#c78902e3,#444444);
+    text-align: center;
+    padding: 30px;
+    color: black;
+    font-weight: 700;
+    font-size: 1.4em;
+    text-shadow: 1px 1px 1px white;
+}
+footer > p > a{
+    text-decoration: none;
+    color: black;
+    font-family: 'harryp';
+    font-size: 1.5em;
 }
