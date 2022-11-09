@@ -18,12 +18,18 @@
             }
         }
 
+        
+
         function clickSobre(){
             
             if(sobre.style.display == 'flex'){
                 sobre.style.display = 'none'
             }else{               
-                sobre.style.display = 'flex'                                                              
+                sobre.style.display = 'flex'                 
+
             }
+            
         }
+
+       
    
