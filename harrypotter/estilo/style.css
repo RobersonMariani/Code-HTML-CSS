@@ -86,6 +86,7 @@ h1{
     text-shadow: 2px 2px 1px white;    
 }
 h2{
+    
     font-family: 'Harryp';
     font-size: 3em;
     text-align: center;
@@ -148,10 +149,9 @@ main section{
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(129, 69, 0, 0.719);
 }
-main > section > p{
-    
-    margin: 5px;
-    padding: 10px;
+main > section > p{    
+    margin: 10px;
+    padding: 20px;
     color: #ffffff;    
     text-indent: 30px;
     text-align: justify; 
@@ -161,6 +161,11 @@ main > section > p{
     text-shadow: 1px 1px 1px rgb(0, 0, 0);    
    
 }
+main h2{
+    padding-top: 20px;
+}
+
+
 
 footer{
     background: linear-gradient(130deg,#7c551be5,#810b02d5,#a86602e5,#c78902e3,#444444);

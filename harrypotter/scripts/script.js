@@ -11,8 +11,7 @@
             if(itens.style.display == 'block'){
                 itens.style.display = 'none'
             }else{
-                itens.style.display ='block'
-                itens.style.position = 'relative'                
+                itens.style.display ='block'                                
             }
         }
 
