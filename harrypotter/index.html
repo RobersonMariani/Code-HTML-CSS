@@ -18,11 +18,14 @@
         <nav id="itens">
             <ul>
                 <li><a href="index.html">Inicio</a></li>                
-                <li><a href="sobre.html">Sobre</a></li>                                          
-                <li><a href="#enredo">Enredo</a></li>                        
-                <li><a href="#tematica">Tematica</a></li>
-                <li><a href="#estrutura">Estrutura</a></li>
-                <li><a href="#origem">Origem</a></li>                                                
+                <li><a href="#" onclick="clickSobre()">Sobre</a> 
+                <ul id="sobre">
+                    <li><a href="sobre.html#enredo">Enredo</a></li>                        
+                    <li><a href="sobre.html#tematica">Tematica</a></li>
+                    <li><a href="sobre.html#estrutura">Estrutura</a></li>
+                    <li><a href="sobre.html#origem">Origem</a></li>
+                </ul> 
+                </li>                                                                                         
                 <li><a href="#">Curiosidades</a></li>
                 <li><a href="#">Livros</a></li>
                 <li><a href="#">Filmes</a></li>
@@ -56,7 +59,17 @@
             if(itens.style.display == 'block'){
                 itens.style.display = 'none'
             }else{
-                itens.style.display ='block'                
+                itens.style.display ='block'
+                itens.style.position = 'relative'                
+            }
+        }
+
+        function clickSobre(){
+            
+            if(sobre.style.display == 'flex'){
+                sobre.style.display = 'none'
+            }else{               
+                sobre.style.display = 'flex'                                                              
             }
         }
     </script>

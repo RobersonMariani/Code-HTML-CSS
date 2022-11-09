@@ -12,6 +12,14 @@
     nav li{
         display: inline-block;
     }
+
+    ul li ul#sobre{
+        position:absolute;
+        margin-top: 10px;        
+        display: flex;
+        flex-direction: row;
    
+}
+
 }
 
