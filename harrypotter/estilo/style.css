@@ -21,9 +21,27 @@ header{
     height: 240px;
 }
 
+span#burguer{       
+    color: black;
+    text-align: left;
+    padding: 10px;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px white;
+}
+span#burguer:hover{
+    
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav{
+    display: none;
+}
+
 nav > ul > li{
     display: inline-block;    
 }
+
  li > a{
     width: 100px;        
     display: block;        
@@ -75,7 +93,7 @@ body{
 }
 
 main > article{
-    width: 60vw;
+    width: 80vw;
     display: block;
     margin: auto;
     margin-bottom: 20px;            
