@@ -18,7 +18,8 @@ body, html{
 
 header{    
     background: linear-gradient(130deg,#7c551be5,#810b02d5,#a86602e5,#c78902e3,#444444);
-    padding: 10px;    
+    padding: 10px;   
+    
 }
 
 span#burguer{
@@ -38,6 +39,7 @@ span#burguer:hover{
 
 nav{
     display: none;
+    
 }
 ul{
     list-style-type: none;
