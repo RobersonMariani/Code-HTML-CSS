@@ -19,7 +19,7 @@ body, html{
 header{    
     background: linear-gradient(130deg,#7c551be5,#810b02d5,#a86602e5,#c78902e3,#444444);
     padding: 10px;   
-    
+    box-shadow: 2px 2px 5px black;
 }
 
 span#burguer{
@@ -151,8 +151,9 @@ main section{
     box-shadow: 2px 2px 3px rgba(129, 69, 0, 0.719);
 }
 main > section > p{    
-    margin: 10px;
+    margin: 10px;    
     padding: 20px;
+    padding-top: 5px;
     color: #ffffff;    
     text-indent: 30px;
     text-align: justify; 
@@ -166,8 +167,6 @@ main h2{
     padding-top: 20px;
 }
 
-
-
 footer{
     background: linear-gradient(130deg,#7c551be5,#810b02d5,#a86602e5,#c78902e3,#444444);
     text-align: center;
@@ -176,6 +175,7 @@ footer{
     font-weight: 700;
     font-size: 1.4em;
     text-shadow: 1px 0px 1px white;
+    box-shadow: 2px 2px 2px 3px black;
 }
 footer > p > a{
     text-decoration: none;
