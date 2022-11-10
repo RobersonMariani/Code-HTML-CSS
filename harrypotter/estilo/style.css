@@ -16,10 +16,14 @@ body, html{
     width:100vw;        
 }
 
+body.curi, main.curi{
+    background-color: rgb(0, 0, 0);
+}
+
 header{    
     background: linear-gradient(130deg,#7c551be5,#810b02d5,#a86602e5,#c78902e3,#444444);
     padding: 10px;   
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 5px black;   
 }
 
 span#burguer{
@@ -107,8 +111,7 @@ body{
     background: url('../imagens/1201594.jpg') center top no-repeat;
     background-color: rgba(0, 0, 0, 0.521);
     background-blend-mode: overlay;
-    background-size:cover;
-    
+    background-size:cover;    
 }
 
 main > article{
@@ -141,8 +144,7 @@ main > article > p{
 main section{
     width: 80vw;
     display: block;
-    margin: auto;
-    margin-bottom: 20px;            
+    margin: auto;               
     margin-top: 50px;
     margin-bottom: 50px;    
     text-shadow: 1px 1px 2px black;    
