@@ -8,6 +8,9 @@
                 itens.style.display = 'none'
                 
             }
+            if(sobre.style.display == 'flex'){
+                sobre.style.display = 'none'
+            }
         }
 
         function clickMenu(){
@@ -20,12 +23,18 @@
 
         
 
+         function carregarSobre(){
+            if(sobre.style.display == ''){
+                sobre.style.display = 'none'
+            }
+        } 
+
         function clickSobre(){
             
-            if(sobre.style.display == 'flex'){
-                sobre.style.display = 'none'
+            if(sobre.style.display == 'none'){
+                sobre.style.display = 'flex'
             }else{               
-                sobre.style.display = 'flex'                 
+                sobre.style.display = 'none'                 
 
             }
             

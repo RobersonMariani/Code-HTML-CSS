@@ -20,11 +20,14 @@
 
     main article{
         width: 60vw;
+       
+
     }
     main section{
         width: 60vw;
     }
 
+    
     ul li ul#sobre{
         position:absolute; 
         margin-top: 10px;        

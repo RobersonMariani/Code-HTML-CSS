@@ -63,7 +63,7 @@ ul{
 }
 
 ul li ul#sobre{
-    display: flex;
+    display: none;
     flex-direction: column;    
 }
 ul li ul#sobre li a{
@@ -114,8 +114,7 @@ body{
 main > article{
     width: 80vw;
     display: block;
-    margin: auto;
-    margin-bottom: 20px;            
+    margin: auto;            
     margin-top: 50px;
     margin-bottom: 50px;    
     text-shadow: 1px 1px 2px black;    
@@ -127,7 +126,7 @@ main > article{
 
 main > article > p{
     
-    margin: 5px;
+    margin: 5px;    
     padding: 10px;
     color: #ffffff;    
     text-indent: 30px;
